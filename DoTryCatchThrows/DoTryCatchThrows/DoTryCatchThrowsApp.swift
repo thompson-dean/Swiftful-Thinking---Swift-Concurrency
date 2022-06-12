@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+    @main
 struct DoTryCatchThrowsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DoCatchTryThrowsBootcamp()
         }
     }
 }
