@@ -21,7 +21,7 @@ This lesson is all about how to deal errors in swift with particular focus on fu
 ``` 
 func getTitle() throws -> String { } 
 ``` 
-The lesson first goes through ways of dealing with errors using tuples and swift's Result type which looks like this: 
+The lesson first goes through ways of dealing with errors using tuples and swift's Result type: 
 
 Using tuples
 ```
@@ -55,8 +55,8 @@ func getTitle() throws -> String {
     }
 }
 ``` 
-It is important to have a clear understanding of "throws" functions as they are commonly used in asynchronous code in swift. A great way to handle "throws" is to use a do catch block. When referencing the "throws" is very import to place a "try" before it other wise your code will not compile. 
-The Code below is an implementation of the getTitle() function in ViewModel.
+It is important to have a clear understanding of "throws" functions as they are commonly used in asynchronous code in swift. A great way to handle "throws" is to use a do-catch block. When using the "throws" function place a "try" before it other wise your code will not compile. 
+The Code below is an implementation of the getTitle() function with in this project's View Model.
 ``` 
 func fetchTitle() {
     do {
@@ -68,7 +68,7 @@ func fetchTitle() {
 }
 
 ```
-try can also be made an optional, in which case it is not necessary to use do and catch as it will either return nil or a String. 
+"try" can also be made an optional, in which case it is not necessary to use do and catch as it will either return nil or a String. 
 ```
 func fetchTitle() {
     let newTitle = try? manager.getTitle3()
@@ -77,5 +77,7 @@ func fetchTitle() {
     }
 }
 ```
+#### Lesson 2 - Download images with Async/Await, @escaping, and Combine  
+
 
 
