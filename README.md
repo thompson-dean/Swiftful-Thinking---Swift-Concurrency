@@ -15,7 +15,7 @@ https://www.youtube.com/playlist?list=PLwvDm4Vfkdphr2Dl4sY4rS9PLzPdyi8PM
 
 ## Lessons
 
-#### Lesson 1 - Do, Try, Catch, and Throws  
+### Lesson 1 - Do, Try, Catch, and Throws  
 
 This lesson is all about how to deal errors in swift with particular focus on functions that "throw": 
 ``` 
@@ -77,7 +77,7 @@ func fetchTitle() {
     }
 }
 ```
-#### Lesson 2 - Download images with Async/Await, @escaping, and Combine  
+### Lesson 2 - Download images with Async/Await, @escaping, and Combine  
 
 
 
