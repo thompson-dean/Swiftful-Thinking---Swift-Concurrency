@@ -12,7 +12,7 @@ https://www.youtube.com/playlist?list=PLwvDm4Vfkdphr2Dl4sY4rS9PLzPdyi8PM
 
 | Type    | Completion |
 | :------ | :--------: |
-| Lessons |    2/12    |
+| Lessons |    3/12    |
 
 ## Lessons
 
@@ -20,7 +20,7 @@ https://www.youtube.com/playlist?list=PLwvDm4Vfkdphr2Dl4sY4rS9PLzPdyi8PM
 | :-------------------------------------- | :------------------------------------------------------------------------ |
 | [Lesson 1](01_DoTryCatchThrows)         | Do, Try, Catch, and Throws.                                               |
 | [Lesson 2](02_DownloadImageAsnyc)       | Download images with Async/Await, @escaping, and Combine.                 |
-| Lesson 3                                | How to use async / await keywords in Swift.                               |
+| [Lesson 3](03_AsyncAwait)                                | How to use async / await keywords in Swift.                               |
 | Lesson 4                                | How to use Task and .task in Swift.                                       |
 | Lesson 5                                | How to use Async Let to perform concurrent methods in swift.              |
 | Lesson 6                                | How to use TaskGroup to perform concurrent tasks in Swift.                |
