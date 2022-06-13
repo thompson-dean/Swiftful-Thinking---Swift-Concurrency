@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A606D772855CAD7002601D3 /* DownloadImageAsnycApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A606D762855CAD7002601D3 /* DownloadImageAsnycApp.swift */; };
-		2A606D792855CAD7002601D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A606D782855CAD7002601D3 /* ContentView.swift */; };
 		2A606D7B2855CAD8002601D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A606D7A2855CAD8002601D3 /* Assets.xcassets */; };
 		2A606D7E2855CAD8002601D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A606D7D2855CAD8002601D3 /* Preview Assets.xcassets */; };
 		2A606D852855D11B002601D3 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A606D842855D11B002601D3 /* DownloadImageAsync.swift */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		2A606D732855CAD7002601D3 /* DownloadImageAsnyc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImageAsnyc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A606D762855CAD7002601D3 /* DownloadImageAsnycApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsnycApp.swift; sourceTree = "<group>"; };
-		2A606D782855CAD7002601D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A606D7A2855CAD8002601D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A606D7D2855CAD8002601D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A606D842855D11B002601D3 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				2A606D762855CAD7002601D3 /* DownloadImageAsnycApp.swift */,
-				2A606D782855CAD7002601D3 /* ContentView.swift */,
 				2A606D842855D11B002601D3 /* DownloadImageAsync.swift */,
 				2A606D7A2855CAD8002601D3 /* Assets.xcassets */,
 				2A606D7C2855CAD8002601D3 /* Preview Content */,
@@ -140,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A606D792855CAD7002601D3 /* ContentView.swift in Sources */,
 				2A606D852855D11B002601D3 /* DownloadImageAsync.swift in Sources */,
 				2A606D772855CAD7002601D3 /* DownloadImageAsnycApp.swift in Sources */,
 			);
