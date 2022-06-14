@@ -11,7 +11,7 @@ import SwiftUI
 struct TaskBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            TaskBootcamp()
+            TaskBootcampHomeView()
         }
     }
 }
