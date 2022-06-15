@@ -12,7 +12,7 @@ https://www.youtube.com/playlist?list=PLwvDm4Vfkdphr2Dl4sY4rS9PLzPdyi8PM
 
 | Type    | Completion |
 | :------ | :--------: |
-| Lessons |    5/12    |
+| Lessons |    6/12    |
 
 ## Lessons
 
