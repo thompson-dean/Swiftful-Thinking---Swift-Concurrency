@@ -9,6 +9,14 @@ import SwiftUI
 
 class CheckedContinuationBootcampDataManager {
     
+    func getData(with url: URL) async throws -> Data {
+        do {
+            let (data, _) =  try await URLSession.shared.data(from: url)
+            return data
+        } catch {
+            throw URLError(.badURL)
+        }
+    }
 }
 
 class CheckedContinuationBootcampViewModel: ObservableObject {
@@ -18,7 +26,18 @@ class CheckedContinuationBootcampViewModel: ObservableObject {
     @Published var image: UIImage? = nil
     
     func getImage() async {
-        
+        do {
+            guard let url = URL(string: "https://picsum.photos/300") else { return }
+            
+            let data = try await manager.getData(with: url)
+            if let image = UIImage(data: data) {
+                await MainActor.run {
+                    self.image = image
+                }
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
     }
 }
 
